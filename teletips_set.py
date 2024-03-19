@@ -14,12 +14,12 @@ from pyrogram.raw.functions.messages import UpdatePinnedMessage
 
 bot=Client(
     "Countdown-TeLeTiPs",
-    api_id = int(os.environ["API_ID"]),
-    api_hash = os.environ["API_HASH"],
-    bot_token = os.environ["BOT_TOKEN"]
+    api_id = int(os.environ["23774143"]),
+    api_hash = os.environ["ae7479f03e3c2ab604db13c6b1008e4f"],
+    bot_token = os.environ["6831763862:AAHnKcc83vOX_bkx2sgZDbGF7WZSylzM37Q"]
 )
 
-footer_message = os.environ["FOOTER_MESSAGE"]
+footer_message = os.environ["Join New Official Channel: https://t.me/+UnqwsgrPEOY1MDNl"]
 
 stoptimer = False
 
@@ -29,8 +29,8 @@ TELETIPS_MAIN_MENU_BUTTONS = [
             ],
             [
                 InlineKeyboardButton('👥 SUPPORT', callback_data="GROUP_CALLBACK"),
-                InlineKeyboardButton('📣 CHANNEL', url='https://t.me/teletipsofficialchannel'),
-                InlineKeyboardButton('👨‍💻 CREATOR', url='https://t.me/teIetips')
+                InlineKeyboardButton('📣 CHANNEL', url='https://t.me/RedDragonCheats'),
+                InlineKeyboardButton('👨‍💻 CREATOR', url='https://t.me/RedDragonCheats')
             ],
             [
                 InlineKeyboardButton('➕ CREATE YOUR BOT ➕', callback_data="TUTORIAL_CALLBACK")
@@ -67,7 +67,7 @@ async def callback_query(client: Client, query: CallbackQuery):
     elif query.data=="GROUP_CALLBACK":
         TELETIPS_GROUP_BUTTONS = [
             [
-                InlineKeyboardButton("TeLe TiPs Chat [EN]", url="https://t.me/teletipsofficialontopicchat")
+                InlineKeyboardButton("Red Dragon Cheats", url="https://t.me/RedDragonCheats")
             ],
             [
                 InlineKeyboardButton("⬅️ BACK", callback_data="START_CALLBACK"),
@@ -85,7 +85,7 @@ async def callback_query(client: Client, query: CallbackQuery):
     elif query.data=="TUTORIAL_CALLBACK":
         TELETIPS_TUTORIAL_BUTTONS = [
             [
-                InlineKeyboardButton("🎥 Video", url="https://youtu.be/nYSrgdIYdTw")
+                InlineKeyboardButton("🎥 Video", url="")
             ],
             [
                 InlineKeyboardButton("⬅️ BACK", callback_data="START_CALLBACK"),
@@ -107,8 +107,8 @@ async def callback_query(client: Client, query: CallbackQuery):
             ],
             [
                 InlineKeyboardButton('👥 SUPPORT', callback_data="GROUP_CALLBACK"),
-                InlineKeyboardButton('📣 CHANNEL', url='https://t.me/teletipsofficialchannel'),
-                InlineKeyboardButton('👨‍💻 CREATOR', url='https://t.me/teIetips')
+                InlineKeyboardButton('📣 CHANNEL', url='https://t.me/RedDragonCheats'),
+                InlineKeyboardButton('👨‍💻 CREATOR', url='https://t.me/RedDragonCheats')
             ],
             [
                 InlineKeyboardButton('➕ CREATE YOUR BOT ➕', callback_data="TUTORIAL_CALLBACK")
