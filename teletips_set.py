@@ -19,7 +19,7 @@ bot=Client(
     bot_token = os.environ["6831763862:AAHnKcc83vOX_bkx2sgZDbGF7WZSylzM37Q"]
 )
 
-footer_message = os.environ["Join New Official Channel: https://t.me/+UnqwsgrPEOY1MDNl"]
+footer_message = os.environ["FOOTER_MESSAGE"]
 
 stoptimer = False
 
